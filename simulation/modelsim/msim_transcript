@@ -1,0 +1,82 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do VGAControler_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/UNIVERSAL/Desktop/Lab4 {C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:06:08 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/UNIVERSAL/Desktop/Lab4" C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler_tb.sv 
+# -- Compiling module VGAControler_tb
+# 
+# Top level modules:
+# 	VGAControler_tb
+# End time: 18:06:08 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/UNIVERSAL/Desktop/Lab4 {C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:06:08 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/UNIVERSAL/Desktop/Lab4" C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv 
+# -- Compiling module VGA640x480
+# 
+# Top level modules:
+# 	VGA640x480
+# End time: 18:06:08 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/UNIVERSAL/Desktop/Lab4 {C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:06:08 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/UNIVERSAL/Desktop/Lab4" C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv 
+# -- Compiling module VGAControler
+# 
+# Top level modules:
+# 	VGAControler
+# End time: 18:06:08 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/UNIVERSAL/Desktop/Lab4 {C:/Users/UNIVERSAL/Desktop/Lab4/CLKDivider.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:06:08 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/UNIVERSAL/Desktop/Lab4" C:/Users/UNIVERSAL/Desktop/Lab4/CLKDivider.sv 
+# -- Compiling module CLKDivider
+# 
+# Top level modules:
+# 	CLKDivider
+# End time: 18:06:08 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.VGAControler_tb
+# vsim work.VGAControler_tb 
+# Start time: 18:06:57 on Oct 15,2019
+# Loading sv_std.std
+# Loading work.VGAControler_tb
+# Loading work.VGAControler
+# Loading work.CLKDivider
+# Loading work.VGA640x480
+# ** Warning: (vsim-3839) C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv(21): Variable '/VGAControler_tb/DUT/hsync', driven via a port connection, is multiply driven. See C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /VGAControler_tb/DUT/display2 File: C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv
+# ** Warning: (vsim-3839) C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv(21): Variable '/VGAControler_tb/DUT/vsync', driven via a port connection, is multiply driven. See C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /VGAControler_tb/DUT/display2 File: C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv
+# ** Warning: (vsim-3839) C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv(21): Variable '/VGAControler_tb/DUT/video_on', driven via a port connection, is multiply driven. See C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /VGAControler_tb/DUT/display2 File: C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv
+# ** Warning: (vsim-3839) C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv(21): Variable '/VGAControler_tb/DUT/x', driven via a port connection, is multiply driven. See C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /VGAControler_tb/DUT/display2 File: C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv
+# ** Warning: (vsim-3839) C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv(21): Variable '/VGAControler_tb/DUT/y', driven via a port connection, is multiply driven. See C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /VGAControler_tb/DUT/display2 File: C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv
+add wave -position end sim:/VGAControler_tb/DUT/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: UNIVERSAL  Hostname: LAPTOP-ANH50AOM  ProcessID: 9720
+#           Attempting to use alternate WLF file "./wlftfq6jan".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfq6jan
+run -all
+# Break key hit
+# Break in Module VGA640x480 at C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv line 45
+# End time: 18:07:28 on Oct 15,2019, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 7

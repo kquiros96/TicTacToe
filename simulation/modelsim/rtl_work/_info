@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/UNIVERSAL/Desktop/Lab4/simulation/modelsim
+vCLKDivider
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1571184368
+!i10b 1
+!s100 kjkR7=h<bmTNhSFhgjUNQ0
+Ice=;hKFI??XO_czW93[BN0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 CLKDivider_sv_unit
+S1
+R0
+w1571103072
+8C:/Users/UNIVERSAL/Desktop/Lab4/CLKDivider.sv
+FC:/Users/UNIVERSAL/Desktop/Lab4/CLKDivider.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1571184368.000000
+!s107 C:/Users/UNIVERSAL/Desktop/Lab4/CLKDivider.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/UNIVERSAL/Desktop/Lab4|C:/Users/UNIVERSAL/Desktop/Lab4/CLKDivider.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/UNIVERSAL/Desktop/Lab4
+Z8 tCvgOpt 0
+n@c@l@k@divider
+vVGA640x480
+R1
+R2
+!i10b 1
+!s100 lI=g`n?kW>VVEe39]RX;73
+IW6:UKZ4=zB<^>U;UDh>zc1
+R3
+!s105 VGA640x480_sv_unit
+S1
+R0
+w1571118845
+8C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv
+FC:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/UNIVERSAL/Desktop/Lab4|C:/Users/UNIVERSAL/Desktop/Lab4/VGA640x480.sv|
+!i113 1
+R6
+R7
+R8
+n@v@g@a640x480
+vVGAControler
+R1
+R2
+!i10b 1
+!s100 lUb4JX<l0N00@Oczf?k2>2
+ITMHBViNiIoaE]GIXSe9JY2
+R3
+!s105 VGAControler_sv_unit
+S1
+R0
+w1571184347
+8C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv
+FC:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/UNIVERSAL/Desktop/Lab4|C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler.sv|
+!i113 1
+R6
+R7
+R8
+n@v@g@a@controler
+vVGAControler_tb
+R1
+R2
+!i10b 1
+!s100 H]U_Zok:J2]2[i=[OOS_00
+Io>0O7`^n^<668FdPaG6KO1
+R3
+!s105 VGAControler_tb_sv_unit
+S1
+R0
+w1571183862
+8C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler_tb.sv
+FC:/Users/UNIVERSAL/Desktop/Lab4/VGAControler_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/UNIVERSAL/Desktop/Lab4|C:/Users/UNIVERSAL/Desktop/Lab4/VGAControler_tb.sv|
+!i113 1
+R6
+R7
+R8
+n@v@g@a@controler_tb
