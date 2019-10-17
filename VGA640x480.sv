@@ -8,11 +8,8 @@ module VGA640x480(clk, rst, HSYNC, VSYNC, inDisplayArea, CounterX, CounterY);
 	output logic [9:0] CounterX;
 	output logic [8:0] CounterY;
 
-	wire CounterXmaxed; 
-	wire CounterYmaxed;
-	
-	assign CounterXmaxed = (CounterX == 800); // 16 + 48 + 96 + 640
-	assign CounterYmaxed = (CounterY == 525); // 10 + 2 + 33 + 480
+	logic CounterXmaxed; 
+	logic CounterYmaxed;
 
 	always @(posedge clk)
 		if (rst)
@@ -53,4 +50,7 @@ module VGA640x480(clk, rst, HSYNC, VSYNC, inDisplayArea, CounterX, CounterY);
 			inDisplayArea = (CounterX < 640) && (CounterY < 480)? 1'b1:1'b0;
 		end
 
+	assign CounterXmaxed = (CounterX == 800); // 16 + 48 + 96 + 640
+	assign CounterYmaxed = (CounterY == 525); // 10 + 2 + 33 + 480
+	
 endmodule
